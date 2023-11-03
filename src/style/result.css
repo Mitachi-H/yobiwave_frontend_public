@@ -1,0 +1,43 @@
+.resulttitle {
+  margin-top: 7vh;
+  margin-bottom: 1vh;
+  padding: 0;
+  width: 100%;
+
+  color: #6ba3f8;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.animal-img {
+  width: 144px;
+}
+.score {
+  width: 100%;
+  height: 150px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  display: flex;
+}
+
+.item {
+  margin: 13px 20px 30px 20px;
+  display: flex;
+  border-radius: 15px; /* 角を丸くする */
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.image-box {
+  padding: 25px 17px;
+  float: left;
+  /* 画像からの間隔を設定 */
+}
+
+.description-box {
+  float: left;
+  padding: 27px 22px 25px 18px;
+}
+/* 説明文からの間隔を設定 */
